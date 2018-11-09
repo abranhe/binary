@@ -75,6 +75,4 @@ An small library to work with binary numbers
 [license]: https://github.com/abranhe/binary/blob/master/license
 [travis-badge]: https://img.shields.io/travis/abranhe/binary.svg
 [travis-status]: https://travis-ci.org/abranhe/binary
-[coverage-badge]: https://img.shields.io/coveralls/abranhe/binary.svg
-[coverage-status]: https://coveralls.io/r/abranhe/binary?branch=master
 [binary]: https://github.com/abranhe/binary.c
