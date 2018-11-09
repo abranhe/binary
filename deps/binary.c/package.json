@@ -1,0 +1,14 @@
+{
+  "name": "binary.c",
+  "version": "1.0.0",
+  "description": "An small library to work with binary numbers",
+  "license": "MIT",
+  "keywords": [
+    "binary", "binary-numbers"
+  ],
+  "repo": "abranhe/binary.c",
+  "src": [
+    "binary.h",
+    "binary.c"
+  ]
+}
