@@ -40,7 +40,7 @@ main(int argc, char **argv) {
 
   if (argc == 2) {
     if (!strcmp(a, "-v") || !strcmp(a, "--version")) {
-      printf("%s", "1.0.2\n");
+      printf("%s", "1.0.3\n");
       return 0;
     }
 
