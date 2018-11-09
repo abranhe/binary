@@ -17,6 +17,7 @@
   <br>
   <br>
 </p>
+
 In mathematics and digital electronics, a binary number is a number expressed in the **base-2 numeral system** or **binary numeral system**, which uses only two symbols: typically `0` and `1`.
 
 
