@@ -1,6 +1,6 @@
 {
   "name": "binary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An small library to work with binary numbers",
   "license": "MIT",
   "keywords": [
@@ -10,7 +10,7 @@
     "cli",
     "binary"
   ],
-  "repo": "abranhe/binary.c",
+  "repo": "abranhe/binary",
   "dependencies": {
     "abranhe/binary.c": "1.0.0"
   },
