@@ -1,6 +1,6 @@
 PREFIX ?= /usr/local
 
-SRC = binary-cli.c deps/binary.c/binary.c
+SRC = cli.c deps/binary.c/binary.c
 
 OBJ_SRC = $(SRC:.c=.o)
 

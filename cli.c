@@ -13,6 +13,8 @@
 #include <stdlib.h>
 #include "binary.h"
 
+#define VERSION "1.0.4"
+
 const char
 *show_help() {
  return "\n\
@@ -40,7 +42,7 @@ main(int argc, char **argv) {
 
   if (argc == 2) {
     if (!strcmp(a, "-v") || !strcmp(a, "--version")) {
-      printf("%s", "1.0.3\n");
+      printf("%s\n", VERSION);
       return 0;
     }
 
