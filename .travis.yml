@@ -1,7 +1,17 @@
 language: c
+
+services:
+  - docker
+
 compiler:
-- clang
-- gcc
-script: make run-test
+  - clang
+  - gcc
+  
+before_install:
+  - docker pull abranhe/clib
+  - docker run -it -v $(pwd):/src -w /src abranhe/clib sh -c "clib install"
+
+script: docker run -it -v $(pwd):/src -w /src abranhe/clib sh -c "make run-test"
+
 notifications:
   email: false

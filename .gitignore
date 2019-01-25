@@ -1,4 +1,4 @@
-*.DS_STORE
+*.DS_Store
 *.o
 *.log
 *.gcov
@@ -6,5 +6,4 @@
 *.gcno
 binary
 test
-example
-coverage
+deps/
