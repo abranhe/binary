@@ -15,8 +15,8 @@
 
 #define VERSION "1.0.4"
 
-const char
-*show_help() {
+const char* 
+show_help(void) {
  return "\n\
  An small library to work with binary numbers\n\n\
  Usage:\n\n\

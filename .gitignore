@@ -6,5 +6,4 @@
 *.gcno
 binary
 test
-example
 deps/
